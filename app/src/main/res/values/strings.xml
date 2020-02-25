@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageSlider">
+        <attr format="boolean" name="auto_cycle"/>
+        <attr format="integer" name="corner_radius"/>
+        <attr format="integer" name="period"/>
+        <attr format="integer" name="delay"/>
+        <attr format="reference" name="placeholder"/>
+        <attr format="reference" name="error_image"/>
+        <attr format="reference" name="selected_dot"/>
+        <attr format="reference" name="unselected_dot"/>
+    </declare-styleable>
+    <string name="app_name">ImageSlider</string>
+</resources>

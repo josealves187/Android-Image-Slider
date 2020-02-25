@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+
+    <br.com.crosoften.carroselslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_margin="18dp"
+        app:auto_cycle="true"
+        app:corner_radius="26"
+        app:delay="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:period="1000"
+        app:selected_dot="@drawable/default_selected_dot"
+        app:unselected_dot="@drawable/default_unselected_dot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
