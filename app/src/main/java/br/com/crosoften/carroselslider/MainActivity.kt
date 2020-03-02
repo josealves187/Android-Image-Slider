@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        nestedScrollView()
         recyclerView.adapter = PosterAdapter().apply { addPosterList(getMockPosters()) }
 
 
@@ -44,5 +44,14 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+    //Para rolar para cima do NestedScrollView
+    private fun nestedScrollView() {
+        nestedScrollView2.post(Runnable {
+            nestedScrollView2.fling(0)
+            nestedScrollView2.smoothScrollTo(0, 0)
+        })
+    }
+
 
 }
