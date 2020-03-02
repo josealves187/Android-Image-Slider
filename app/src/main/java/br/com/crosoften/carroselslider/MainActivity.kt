@@ -4,12 +4,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.lifecycle.MutableLiveData
+import br.com.crosoften.carroselslider.view.MockUtil.getMockPosters
+import br.com.crosoften.carroselslider.view.PosterAdapter
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        recyclerView.adapter = PosterAdapter().apply { addPosterList(getMockPosters()) }
 
 
         val imageList = ArrayList<SlideModel>()
@@ -32,6 +39,8 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, " teste2 ", Toast.LENGTH_SHORT).show()
             }
         })
+
+
 
 
     }

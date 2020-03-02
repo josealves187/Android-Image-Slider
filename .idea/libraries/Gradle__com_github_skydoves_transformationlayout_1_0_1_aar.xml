@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.skydoves:transformationlayout:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2fdf0b866c2523c3743f880801219c9/transformationlayout-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2fdf0b866c2523c3743f880801219c9/transformationlayout-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/transformationlayout/1.0.1/39e948f0d9c6abe21fc0e29d7a4b7b3808991894/transformationlayout-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.skydoves/transformationlayout/1.0.1/58f1fc9dd9b023f7af066ff6bef538763f0eda34/transformationlayout-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
